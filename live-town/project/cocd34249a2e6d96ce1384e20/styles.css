@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Hero {
+    width: 720px;
+    height: 343px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/99/Granite_Trust_Building_Quincy.jpg) ;
+    background-size: cover;
+}
+
+
+#title {
+    background: #a2d2ff;
+    border-radius: 9px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 45px 225px;
+}
+
+#intro {
+    background: #415a77;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 20px 150px;
+}
+
+
+
+#activities {
+    width: 640px;
+    height: 343px;
+    left: 0px;
+    top: 343px;
+    margin-top: -20px;
+    padding: 0px 40px;
+    background: #ffc8dd;
+}
+#head {
+    margin: 40px 0 30px 0;
+    font-weight: bold;
+    font-size:24px;
+}
+
+.pic {
+    width: 100px;
+    height: 100px;
+}
+
+#act {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+}
+
+#three {
+    margin-left: 33px;
+    width: 198px;
+    height: 227px;
+}
+
+
+#card {
+    width: 400px;
+    margin: 50px 160px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #cdb4db;
+    color: #ffafcc;
+    border-radius: 10px;
+    border-bottom: 4px solid #ffafcc;
+    text-shadow: 0 0 2px black;
+}
+
+#avatar {
+    width: 170px;
+    height: 200px;
+}
+
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
